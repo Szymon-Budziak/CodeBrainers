@@ -3,23 +3,19 @@ Read this before you start coding and exploring the code.
 ## Prerequisites
 Before you start, you have to install all requirements. Installation process on Linux and Windows:
 
-__1. In your terminal create a new folder where you would like to store this project:__
+__1. In your terminal create a new folder where you would like to store this project and enter it:__
 ```
-mkdir Django_project
+mkdir Django_project && cd Django_project
 ```
-__2. Enter the newly created folder:__
-```
-cd Django_project
-```
-__3. Clone repository by typing:__
+__2. Clone repository by typing:__
 ```
 git clone https://github.com/Szymon-Budziak/CodeBrainers.git
 ```
-__4. Enter `CodeBrainers/Django/` folder:__
+__3. Enter `CodeBrainers/Django/` folder:__
 ```
 cd CodeBrainers/Django/
 ```
-__5. Create new virtual environment for this project and activate it:__
+__4. Create new virtual environment for this project and activate it:__
  - Linux machine:
 ```
 python -m venv venv
@@ -33,8 +29,39 @@ venv\Scripts\activate
 ```
 this will create new virtual environment with venv name and activate it.
 
-__6. Install required packages:__
+__5. Install required packages:__
 ```
 pip install -r requirements.txt
 ```
-Now you are ready to explore Django code.
+
+__6. Enter `mysite` directory and run `setup.py` file to create questions and choices:__
+ - Linux machine:
+```
+cd mysite && python setup.py
+```
+(if python is not working try using python3)
+- Windows machine:
+```
+cd mysite && py setup.py
+```
+
+__7. Create `superuser` to have access to admin page:__
+ - Linux machine:
+```
+python manage.py createsuperuser
+```
+(if python is not working try using python3)
+- Windows machine:
+```
+py manage.py createsuperuser
+```
+
+Now you are ready to explore Django code and run server, enter polls website:
+ - Linux machine:
+```
+python manage.py runserver
+```
+- Windows machine:
+```
+py manage.py runserver
+```
