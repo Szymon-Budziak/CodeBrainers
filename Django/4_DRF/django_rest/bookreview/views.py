@@ -4,7 +4,7 @@ from .serializers import AuthorSerializer
 from rest_framework import generics
 
 
-class AuthorView(generics.ListAPIView):
+class AuthorView(generics.ListCreateAPIView):
     queryset = Author.objects.all()
     serializer_class = AuthorSerializer
 
@@ -12,3 +12,7 @@ class AuthorView(generics.ListAPIView):
 class AuthorInstanceView(generics.RetrieveAPIView):
     queryset = Author.objects.all()
     serializer_class = AuthorSerializer
+
+
+def index_view(request):
+    return render(request, "bookreview/index.html", {"authors": Author.objects.all()})
