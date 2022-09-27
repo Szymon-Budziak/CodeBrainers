@@ -1,0 +1,6 @@
+GET/POST:exams/ - DONE
+GET/PATCH/DELETE:exams/exam_id - DONE
+GET:tasks/ - DONE
+GET/POST:exams/exam_id/tasks - DONE
+GET/DELETE:exams/exam_id/tasks/task_id - DONE
+PATCH:tasks/task_id - DONE
