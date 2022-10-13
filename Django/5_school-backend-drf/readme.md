@@ -62,12 +62,14 @@ pip install python-dotenv
 pip install drf-extensions
 ```
 
-__6. Enter `school_drf` directory and run `setup.py` file to create custom data:__
+__6. Enter `school_drf`, `.env` file and run `setup.py` file:
 
 - Linux/macOS machine:
 
 ```
-cd school_drf && python setup.py
+cd school_drf
+touch .env
+python setup.py
 ```
 
 (if python is not working try using python3)
@@ -75,7 +77,8 @@ cd school_drf && python setup.py
 - Windows machine:
 
 ```
-cd django_rest
+cd school_drf
+touch .env
 py setup.py
 ```
 

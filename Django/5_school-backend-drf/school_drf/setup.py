@@ -15,9 +15,9 @@ django.core.management.execute_from_command_line(['manage.py', 'migrate'])
 from rest_api.models import Exam
 
 # create two User objects
-user1 = User.objects.create_user("user1", "user1@ex.com", None)
+user1 = User.objects.create_user("user1", "user1@ex.com", "user1passwd")
 
-user2 = User.objects.create_user("user2", "user2@ex.com", None)
+user2 = User.objects.create_user("user2", "user2@ex.com", "user2passwd")
 
 # create two Exam objects and save them
 exam1 = Exam(name="Math", owner=user1, description="Non linear algebra", final_grade=4)
