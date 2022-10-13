@@ -98,8 +98,9 @@ python manage.py createsuperuser
 py manage.py createsuperuser
 ```
 
-__8. Run server and enter admin page. Then create some `users`, `exams` and `tasks`. Admin web
-page: `http://localhost:8000/admin`
+__8. Run server and enter admin page. Then create some `Users`, `Exams` and `Tasks` by clicking `+ Add` next to them on
+admin page. Admin web
+page: `http://localhost:8000/admin`__
 
 - Linux/macOS machine:
 
