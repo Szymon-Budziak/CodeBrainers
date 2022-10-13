@@ -62,7 +62,13 @@ pip install python-dotenv
 pip install drf-extensions
 ```
 
-__6. Enter `school_drf`, `.env` file and run `setup.py` file:
+__6. Export DJANGO_SETTINGS_MODULE:__
+
+```
+export DJANGO_SETTINGS_MODULE=school_drf.settings
+```
+
+__7. Enter `school_drf`, `.env` file and run `setup.py` file:__
 
 - Linux/macOS machine:
 
@@ -82,7 +88,7 @@ touch .env
 py setup.py
 ```
 
-__7. Create `superuser` to have access to admin page:__
+__8. Create `superuser` to have access to admin page:__
 
 - Linux/macOS machine:
 
