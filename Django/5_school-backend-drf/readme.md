@@ -69,7 +69,23 @@ cd school_drf
 export DJANGO_SETTINGS_MODULE=school_drf.settings
 ```
 
-__7. Run `setup.py` file:__
+__7. Create `superuser` to have access to admin page:__
+
+- Linux/macOS machine:
+
+```
+python manage.py createsuperuser
+```
+
+(if python is not working try using python3)
+
+- Windows machine:
+
+```
+py manage.py createsuperuser
+```
+
+__8. Run `setup.py` file:__
 
 - Linux/macOS machine:
 
@@ -85,21 +101,7 @@ python setup.py
 py setup.py
 ```
 
-__8. Create `superuser` to have access to admin page:__
-
-- Linux/macOS machine:
-
-```
-python manage.py createsuperuser
-```
-
-(if python is not working try using python3)
-
-- Windows machine:
-
-```
-py manage.py createsuperuser
-```
+**Ready to explore**
 
 Now you are ready to explore Django and DRF code and run server, enter api/exams/
 website `http://localhost:8000/api/exams/`:
