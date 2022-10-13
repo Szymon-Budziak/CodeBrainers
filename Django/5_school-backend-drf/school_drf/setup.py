@@ -1,12 +1,4 @@
-import os
-import django
 from django.contrib.auth import get_user_model
-
-# migrate
-os.environ['DJANGO_SETTINGS_MODULE'] = 'school_drf.settings'
-django.setup()
-django.core.management.execute_from_command_line(['manage.py', 'migrate'])
-
 from rest_api.models import Exam
 
 # create User
