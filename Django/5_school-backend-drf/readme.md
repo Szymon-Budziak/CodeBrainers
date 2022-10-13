@@ -62,14 +62,14 @@ pip install python-dotenv
 pip install drf-extensions
 ```
 
-__6. Enter `school_drf` directory and Export DJANGO_SETTINGS_MODULE. Also run `initial_setup` Python file to make initial setup:__
+__6. Enter `school_drf` directory and Export DJANGO_SETTINGS_MODULE. Also run `setup` Python file:__
 
 - Linux/macOS machine:
 
 ```
 cd school_drf
 export DJANGO_SETTINGS_MODULE=school_drf.settings
-python initial_setup.py
+python setup.py
 ```
 
 (if python is not working try using python3)
@@ -79,7 +79,7 @@ python initial_setup.py
 ```
 cd school_drf
 export DJANGO_SETTINGS_MODULE=school_drf.settings
-py initial_setup.py
+py setup.py
 ```
 
 __7. Create `superuser` to have access to admin page:__
@@ -98,12 +98,13 @@ python manage.py createsuperuser
 py manage.py createsuperuser
 ```
 
-__8. Run `setup.py` file:__
+__8. Run server and enter admin page. Then create some `users`, `exams` and `tasks`. Admin web
+page: `http://localhost:8000/admin`
 
 - Linux/macOS machine:
 
 ```
-python setup.py
+python manage.py runserver
 ```
 
 (if python is not working try using python3)
@@ -111,7 +112,7 @@ python setup.py
 - Windows machine:
 
 ```
-py setup.py
+py manage.py runserver
 ```
 
 **Ready to explore**
