@@ -61,7 +61,7 @@ pip install django
 pip install djangorestframework
 ```
 
-__6. Enter `django_rest` directory and run `setup.py` file to create custom :__
+__6. Enter `django_rest` directory and run `setup.py` file to create custom data:__
 
 - Linux/macOS machine:
 
