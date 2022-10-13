@@ -62,19 +62,18 @@ pip install python-dotenv
 pip install drf-extensions
 ```
 
-__6. Export DJANGO_SETTINGS_MODULE:__
+__6. Enter `school_drf` directory and Export DJANGO_SETTINGS_MODULE:__
 
 ```
+cd school_drf
 export DJANGO_SETTINGS_MODULE=school_drf.settings
 ```
 
-__7. Enter `school_drf`, `.env` file and run `setup.py` file:__
+__7. Run `setup.py` file:__
 
 - Linux/macOS machine:
 
 ```
-cd school_drf
-touch .env
 python setup.py
 ```
 
@@ -83,8 +82,6 @@ python setup.py
 - Windows machine:
 
 ```
-cd school_drf
-touch .env
 py setup.py
 ```
 
