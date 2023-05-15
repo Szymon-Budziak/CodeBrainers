@@ -9,4 +9,3 @@ CodeBrainers teaching materials.
    - [4 Django REST framework](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django/4_DRF/django_rest)
    - [5 School Django REST API backend project](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django/5_school-backend-drf)
 2. [Data Science]
-abc
