@@ -1,10 +1,10 @@
-from rest_framework.generics import ListAPIView
+from rest_framework.generics import ListCreateAPIView
 
 from ..models import Author
 from ..serializers import AuthorSerializer
 
 
-class AuthorViewList(ListAPIView):
+class AuthorViewList(ListCreateAPIView):
     """
     Author view list
     """
