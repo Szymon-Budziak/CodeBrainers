@@ -21,5 +21,6 @@ from .swagger_docs import schema_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include('api.urls')),
-    path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='swagger_schema')
+    path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='swagger_schema'),
+    path('api-auth/', include('rest_framework.urls'))
 ]
