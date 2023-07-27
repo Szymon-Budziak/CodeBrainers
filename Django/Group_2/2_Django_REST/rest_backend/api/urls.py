@@ -10,5 +10,6 @@ urlpatterns = [
     path("borrows/<int:pk>/edit/", BorrowRetrieveUpdate.as_view(), name="borrows_retrieve_update"),
     path("borrows/<int:pk>/return/", BorrowReturnBookUpdate.as_view(), name="borrows_return_book_update"),
     path("user/create/", UserCreate.as_view(), name="user_create"),
-    path("user/login/", UserTokenList.as_view(), name="token_login")
+    path("user/login/", UserTokenList.as_view(), name="token_login"),
+    path("user/activate/<int:pk>/<str:token>/", ActionAuthorizationRetrieveUpdate.as_view(), name="activate_user")
 ]
