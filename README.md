@@ -7,7 +7,7 @@ CodeBrainers teaching materials.
 1. [Django](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django):
     - [Group 1](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django/Group_1)
     - [Group 2](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django/Group_2)
-    - [Group 3]()
+    - [Group 3](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django/Group_3)
 2. [Data science](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Data%20science)
     - [Matplotlib](https://github.com/Szymon-Budziak/CodeBrainers/blob/main/Data%20science/Matplotlib.ipynb)
 
