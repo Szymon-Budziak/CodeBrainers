@@ -8,10 +8,11 @@ CodeBrainers teaching materials.
     - [Group 1](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django/Group_1)
     - [Group 2](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Django/Group_2)
     - [Group 3]()
-2. [Data science](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Data%science)
-    - [Matplotlib]()
+2. [Data science](https://github.com/Szymon-Budziak/CodeBrainers/tree/main/Data%20science)
+    - [Matplotlib](https://github.com/Szymon-Budziak/CodeBrainers/blob/main/Data%20science/Matplotlib.ipynb)
 
 To start with any of the available materials, do the following:
+
 __1. In your terminal create a new folder where you would like to store the repository:__
 
 ```bash
