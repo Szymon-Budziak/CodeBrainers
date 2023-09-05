@@ -14,8 +14,19 @@ class BorrowSerializer(serializers.ModelSerializer):
     user_last_name = serializers.ReadOnlyField(source='user_id.last_name')
     user_email = serializers.ReadOnlyField(source='user_id.email')
     user_id = serializers.ReadOnlyField(source='user_id.id')
+    return_date = serializers.ReadOnlyField()
 
     class Meta:
         model = Borrow
         fields = ('id', 'user_id', 'user_first_name', 'user_last_name', 'user_email', 'book_id', 'book',
                   'author_first_name', 'author_last_name', 'borrow_date', 'return_date')
+
+
+class BorrowReturnBookSerializer(serializers.ModelSerializer):
+    """
+    Borrow return book serializer
+    """
+
+    class Meta:
+        model = Borrow
+        fields = ('id',)
