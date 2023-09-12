@@ -25,4 +25,4 @@ jobs:
         pip install -r Django/Group_3/1_Django_tutorial/requirements.txt
     - name: Run Tests
       run: |
-        python Django/Group_3/1_Django_tutorial/manage.py test
+        python Django/Group_3/1_Django_tutorial/manage.py test Django/Group_3/1_Django_tutorial/
