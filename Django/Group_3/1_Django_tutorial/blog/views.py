@@ -28,8 +28,8 @@ def post_new(request):
     return render(request, 'blog/post_new.html', {'form': form})
 
 
-def post_edit(request, abcde):
-    post = get_object_or_404(Post, pk=abcde)
+def post_edit(request, pk):
+    post = get_object_or_404(Post, pk=pk)
     if request.method == 'POST':
         form = PostForm(request.POST, instance=post)
         if form.is_valid():

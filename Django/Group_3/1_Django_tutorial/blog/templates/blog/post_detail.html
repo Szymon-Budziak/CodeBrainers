@@ -10,7 +10,7 @@
     </div>
     {% endif %}
     {% if user == post.author %}
-    <a href="{% url 'post_edit' abcde=post.pk %}">EDIT</a>
+    <a href="{% url 'post_edit' pk=post.pk %}">EDIT</a>
     {% endif %}
     <h3>Title: {{ post.title }}</h3>
     <p>{{ post.text }}</p>
